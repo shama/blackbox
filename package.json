@@ -1,0 +1,45 @@
+{
+  "name": "blackbox",
+  "description": "Put data in; take data out; same data across child processes or networks with dnode.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/shama/blackbox",
+  "author": {
+    "name": "Kyle Robinson Young",
+    "email": "kyle@dontkry.com",
+    "url": "http://dontkry.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shama/blackbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shama/blackbox/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shama/blackbox/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/blackbox",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit -v"
+  },
+  "dependencies": {
+    "dnode": "~1.0.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0rc3",
+    "grunt-contrib-nodeunit": "~0.1.1",
+    "grunt-contrib-watch": "~0.2.0a",
+    "grunt-contrib-jshint": "~0.1.0"
+  },
+  "keywords": [
+    "rpc",
+    "dnode",
+    "persistent"
+  ]
+}
